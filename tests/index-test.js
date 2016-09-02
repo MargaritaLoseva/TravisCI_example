@@ -3,6 +3,6 @@ fixture `Getting Started`
 
 test('My test', async t => {
     await t
-        .click('#clickHere')
-		.setNativeDialogHandler(() => true);
+		.setNativeDialogHandler(() => true)
+        .click('#clickHere');
 });
