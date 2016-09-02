@@ -1,0 +1,13 @@
+{
+  "name": "my-project",
+  "version": "1.0.0",
+  "scripts": {
+    "test":  "node server.js & testcafe 'saucelabs:Chrome@beta:Windows 10' 'tests/index-test.js'; EXIT_CODE=$?; kill $!; exit $EXIT_CODE"
+  },
+  "dependencies": {
+    "testcafe": "0.2.1-alpha"
+  },
+  "devDependencies": {
+    "testcafe": "0.2.1-alpha"
+  }
+}
