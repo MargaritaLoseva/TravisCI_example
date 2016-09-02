@@ -5,7 +5,9 @@
     "test":  "node server.js & testcafe 'saucelabs:Chrome@beta:Windows 10' 'tests/index-test.js'; EXIT_CODE=$?; kill $!; exit $EXIT_CODE"
   },
   "dependencies": {
-    "testcafe": "0.3.1-alpha"
+    "testcafe": "0.3.1-alpha",
+	"connect": "^3.4.1",
+    "serve-static": "^1.11.1"
   },
   "devDependencies": {
     "testcafe": "0.3.1-alpha",
