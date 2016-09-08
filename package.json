@@ -10,6 +10,7 @@
   },
   "devDependencies": {
     "testcafe": "0.3.1-alpha",
+	"chai":"*",
 	"testcafe-browser-provider-saucelabs": "^1.0.0"
   }
 }
